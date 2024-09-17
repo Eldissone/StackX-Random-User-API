@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random user</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Quer... <strong>quem?</strong></h1>
+        </div>
+        <button type="button" onclick="openModal()" id="BtnLogin">Logar</button>
+
+        <div class="imgUserLogado" id="imgUserLogado">
+            <img src="ft.jpg" alt="foto user">
+        </div>
+
+    </header>
+
+    <div class="perfil" id="ABR">
+        <div class="perfilImg" id="imgUserLogado2">
+            <img src="" alt="foto user">
+            <h3 id="nome"></h3>
+        </div>
+
+        <div class="divUs">
+            <span><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt=""></span>
+            <a href="#">linkedin</a>
+        </div>
+        <div class="divUs">
+            <span><img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt=""></span>
+            <a href="#">email</a>
+        </div>
+        <div class="divUs">
+            <span><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt=""></span>
+            <a href="#">instagran</a>
+        </div>
+
+        <div class="divUs">
+            <a href="index.html">Terminar Sessão</a>
+        </div>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal">
+            <form>
+                <h1>login</h1>
+
+                <input type="email" class="input-control" name="emailUser" id="meuInputEmail"
+                    placeholder="ex.: elonm@tesla.com">
+                <input type="password" class="input-control" name="password" id="meuInputPass" placeholder="password">
+
+                <button type="button" id="pegarValorBtn">entrar</button>
+
+                <nav>
+                    <span>entrar com:</span>
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt=""></li>
+                        <li><img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt=""></li>
+                        <li><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt=""></li>
+                    </ul>
+                </nav>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="container-section">
+
+        <div class="container">
+            <div class=" card">
+                <div class="content-img">
+                    <div class="img"><img src="ft.jpg" alt=""></div>
+                </div>
+                <div class="dataUser">
+                    <span>
+                        <label for="#">Street</label>
+                        0033
+                    </span>
+                    <span>
+                        <label for="#">postcode</label>
+                        00392
+                    </span>
+                    <span>H 6th st</span>
+                </div>
+                <div class="NomeC">
+                    <span>Srº</span>
+                    <label for="#">Eldissone Vilonga</label>
+                    <span>21 Anos</span>
+                    <span>Lubango, Huila, Angola</span>
+                </div>
+                <h4>credenciais:</h4>
+                <div class="credenciais">
+                    <div class="email">
+                        <label for="#">email:</label>
+                        <span>eldissone.example@evtec.com</span>
+                    </div>
+                    <div class="pass">
+                        <label for="#">Password:</label>
+                        <span> PasswordKey </span>
+                    </div>
+                </div>
+                <div class="rodape">
+                    <label for="#">Telefone: (+244)933 170 799</label>
+                    <label for="#">Celular: 933 170 799</label>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
